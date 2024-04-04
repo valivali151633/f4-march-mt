@@ -1,0 +1,62 @@
+#container{
+  margin:40px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  
+  width: 85vw;
+}
+
+
+#genre-conatiner{
+  background-color:#f0f0f0;
+  padding: 0px 10px;
+  border-radius:5px;
+}
+#genre-conatiner h3{
+  font-weight: 700;
+}
+
+.genre-buttons  {
+ display: flex;
+  padding:10px;
+  border-radius: 10px;
+  gap:10px;
+  flex-wrap: wrap;
+  
+}
+.genre-buttons button {
+  background-color: #d5d5d5;
+  padding:10px;
+  border-radius: 10px;
+  border:none;
+  
+}
+button:hover{
+  cursor: pointer;
+  background-color: #c2c2c2;
+
+}
+
+#movies-container{
+  
+  width:100%
+}
+
+#movies-container table{
+  width:100%;
+ 
+}
+
+table th{
+  background-color: #f0f0f0;
+  font-size: 16.5px;
+}
+table , th ,td{
+  border: 1px solid #d2cdcd;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 5px;
+}
